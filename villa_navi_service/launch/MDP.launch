@@ -1,3 +1,19 @@
 <launch>
+
+  <arg name="INPUT" default="/hsrb/head_rgbd_sensor/depth_registered/rectified_points" />
+  <arg name="SELF_FILTER_PARAM" default="$(find robot_self_filter)/launch/robot_self_filter.yaml" />
+
+  <node pkg="robot_self_filter"
+    type="self_filter" clear_params="true"
+    name="self_filter" respawn="true" output="screen">
+      <remap from="cloud_in" to="$(arg INPUT)" />
+      <remap from="cloud_out" to="~output" />
+      <rosparam command="load" file="$(arg SELF_FILTER_PARAM)" />
+      <param name="sensor_frame" value="/head_rgbd_sensor_rgb_frame" />
+      <param name="use_rgb" value="true" />
+      <param name="keep_organized" value="true"/>
+      <param name="subsample_value" type="double" value="0.0"/>
+  </node>
+
    
 </launch>
