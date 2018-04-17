@@ -1,0 +1,7 @@
+<launch>
+    <arg name="param_file" default="$(find villa_navi_service)/config/naviconfig.yaml" />
+    <rosparam command="load" file="$(arg param_file)"/>
+    <arg name="target_frame" default="/map" />
+
+    <node pkg="villa_navi_service" type="waypoint_server" name="waypoint_server" output="screen" respawn="true"></node>
+</launch> 

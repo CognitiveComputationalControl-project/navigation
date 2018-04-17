@@ -1,0 +1,4 @@
+string loc_name
+---
+bool is_possible_go
+

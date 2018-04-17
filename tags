@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Camera_angle	villa_navi_service/include/navi_service_node.h	/^	double Camera_angle;$/;"	m	class:villa_navi_srv
+Cur_detected_human	villa_navi_service/include/navi_service_node.h	/^	std::vector< std::vector< double > > Cur_detected_human;$/;"	m	class:villa_navi_srv
+Cur_existed_human	villa_navi_service/include/navi_service_node.h	/^	std::vector< std::vector< double > > Cur_existed_human;$/;"	m	class:villa_navi_srv
+Cur_leg_human	villa_navi_service/include/navi_service_node.h	/^	std::vector< std::vector< double > > Cur_leg_human;$/;"	m	class:villa_navi_srv
+Cur_leg_yolo_human	villa_navi_service/include/navi_service_node.h	/^	std::vector< std::vector< double > > Cur_leg_yolo_human;$/;"	m	class:villa_navi_srv
+Gaze_activate_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher Gaze_activate_pub;$/;"	m	class:villa_navi_srv
+Gaze_point_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher Gaze_point_pub;$/;"	m	class:villa_navi_srv
+Head_Pos	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> Head_Pos;				\/\/x,y,theta$/;"	m	class:villa_navi_srv
+Head_Pos	villa_navi_service/include/waypoint_server_node.h	/^	std::vector<double> Head_Pos;				\/\/x,y,theta$/;"	m	class:waypoint_srv
+Headscan_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher Headscan_pub;$/;"	m	class:villa_navi_srv
+Human_boxes_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher Human_boxes_pub;$/;"	m	class:villa_navi_srv
+Human_target_candidate	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> Human_target_candidate;				\/\/x,y,theta$/;"	m	class:villa_navi_srv
+Last_detected_human	villa_navi_service/include/navi_service_node.h	/^	std::vector< std::vector< double > > Last_detected_human;$/;"	m	class:villa_navi_srv
+LoadPositionfromConfig	villa_navi_service/src/waypoint_client.cpp	/^  void LoadPositionfromConfig(ros::NodeHandle n, std::string input_locations)$/;"	f	class:waypoint_manager
+LoadPositionfromConfig	villa_navi_service/src/waypoint_server_node.cpp	/^void waypoint_srv::LoadPositionfromConfig(ros::NodeHandle n, std::string input_locations)$/;"	f	class:waypoint_srv
+OnceTargeted	villa_navi_service/include/navi_service_node.h	/^	bool OnceTargeted;$/;"	m	class:villa_navi_srv
+Publish_nav_target	villa_navi_service/src/navi_service_node.cpp	/^void villa_navi_srv::Publish_nav_target(float _x, float _y, float _theta)$/;"	f	class:villa_navi_srv
+Publish_nav_target	villa_navi_service/src/waypoint_server_node.cpp	/^void waypoint_srv::Publish_nav_target(float _x, float _y)$/;"	f	class:waypoint_srv
+Robot_Pos	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> Robot_Pos;				\/\/x,y,theta$/;"	m	class:villa_navi_srv
+Robot_Pos	villa_navi_service/include/waypoint_server_node.h	/^	std::vector<double> Robot_Pos;				\/\/x,y,theta$/;"	m	class:waypoint_srv
+SpeechGui	villa_navi_service/scripts/gui_waypoint.py	/^class SpeechGui(QtGui.QWidget):$/;"	c
+Track_human_target	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> Track_human_target;				\/\/x,y,theta$/;"	m	class:villa_navi_srv
+__init__	villa_navi_service/scripts/gui_waypoint.py	/^  def __init__(self):$/;"	m	class:SpeechGui
+angle_criticalvalue	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> angle_criticalvalue;$/;"	m	class:villa_navi_srv
+angle_people_set	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> angle_people_set;$/;"	m	class:villa_navi_srv
+belief_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher belief_pub;$/;"	m	class:villa_navi_srv
+belief_size	villa_navi_service/include/navi_service_node.h	/^	int belief_size;$/;"	m	class:villa_navi_srv
+cloud	villa_navi_service/include/navi_service_node.h	/^	pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud;$/;"	m	class:villa_navi_srv
+detect_iters	villa_navi_service/include/navi_service_node.h	/^	int detect_iters;$/;"	m	class:villa_navi_srv
+dynamic_belief_map	villa_navi_service/include/navi_service_node.h	/^	nav_msgs::OccupancyGrid dynamic_belief_map;$/;"	m	class:villa_navi_srv
+global_pose	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> global_pose;$/;"	m	class:villa_navi_srv
+global_pose	villa_navi_service/include/waypoint_server_node.h	/^	std::vector<double> global_pose;$/;"	m	class:waypoint_srv
+goTarget	villa_navi_service/src/navi_service_node.cpp	/^bool villa_navi_srv::goTarget(villa_navi_service::GoTargetPos::Request &req, villa_navi_service::GoTargetPos::Response &res)$/;"	f	class:villa_navi_srv
+goTarget	villa_navi_service/src/waypoint_server_node.cpp	/^bool waypoint_srv::goTarget(villa_navi_service::GoTargetName::Request &req, villa_navi_service::GoTargetName::Response &res)$/;"	f	class:waypoint_srv
+goal_maps	villa_navi_service/include/waypoint_server_node.h	/^	std::map< std::string, std::vector<double> > goal_maps;$/;"	m	class:waypoint_srv
+goal_maps	villa_navi_service/src/waypoint_client.cpp	/^  std::map< std::string, std::vector<double> > goal_maps;$/;"	m	class:waypoint_manager	file:
+gui_start	villa_navi_service/scripts/gui_waypoint.py	/^def gui_start():$/;"	f
+handleButton	villa_navi_service/scripts/gui_waypoint.py	/^  def handleButton(self):$/;"	m	class:SpeechGui
+human_belief_map	villa_navi_service/include/navi_service_node.h	/^	nav_msgs::OccupancyGrid human_belief_map;$/;"	m	class:villa_navi_srv
+human_boxes_array	villa_navi_service/include/navi_service_node.h	/^	visualization_msgs::MarkerArray human_boxes_array;$/;"	m	class:villa_navi_srv
+human_laser_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher human_laser_pub;$/;"	m	class:villa_navi_srv
+human_laser_scan_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher human_laser_scan_pub;$/;"	m	class:villa_navi_srv
+human_leg_target_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher human_leg_target_pub;$/;"	m	class:villa_navi_srv
+human_occupied_idx	villa_navi_service/include/navi_service_node.h	/^	std::vector<int> human_occupied_idx;$/;"	m	class:villa_navi_srv
+human_occupied_leg_idx	villa_navi_service/include/navi_service_node.h	/^	std::vector<int> human_occupied_leg_idx;$/;"	m	class:villa_navi_srv
+human_target_Intcmd_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher human_target_Intcmd_pub;$/;"	m	class:villa_navi_srv
+human_target_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher human_target_pub;$/;"	m	class:villa_navi_srv
+index	villa_navi_service/include/navi_service_node.h	/^	int index;$/;"	m	class:villa_navi_srv
+index_of_human_occ_cells_updated_recently	villa_navi_service/include/navi_service_node.h	/^	std::vector<int> index_of_human_occ_cells_updated_recently;$/;"	m	class:villa_navi_srv
+int_sub	villa_navi_service/src/waypoint_client.cpp	/^  ros::Subscriber int_sub;$/;"	m	class:waypoint_manager	file:
+leg_target	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> leg_target;				\/\/x,y,theta$/;"	m	class:villa_navi_srv
+listener	villa_navi_service/include/navi_service_node.h	/^	tf::TransformListener 	  listener;$/;"	m	class:villa_navi_srv
+listener	villa_navi_service/include/waypoint_server_node.h	/^	tf::TransformListener 	  listener;$/;"	m	class:waypoint_srv
+m_client	villa_navi_service/src/waypoint_client.cpp	/^  ros::ServiceClient m_client; $/;"	m	class:waypoint_manager	file:
+m_dyn_occupancy	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> m_dyn_occupancy;$/;"	m	class:villa_navi_srv
+m_human_posx	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> m_human_posx;$/;"	m	class:villa_navi_srv
+m_human_posy	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> m_human_posy;$/;"	m	class:villa_navi_srv
+m_leg_idx_set	villa_navi_service/include/navi_service_node.h	/^	std::vector<int>    m_leg_idx_set;$/;"	m	class:villa_navi_srv
+m_leg_updateiter	villa_navi_service/include/navi_service_node.h	/^	int m_leg_updateiter;$/;"	m	class:villa_navi_srv
+m_numofhuman	villa_navi_service/include/navi_service_node.h	/^	int m_numofhuman;$/;"	m	class:villa_navi_srv
+m_prob_occupancy	villa_navi_service/include/navi_service_node.h	/^	std::vector<double> m_prob_occupancy;$/;"	m	class:villa_navi_srv
+m_receiveiter	villa_navi_service/include/navi_service_node.h	/^	int m_receiveiter;$/;"	m	class:villa_navi_srv
+m_service	villa_navi_service/include/waypoint_server_node.h	/^	ros::ServiceServer m_service;$/;"	m	class:waypoint_srv
+m_updateiter	villa_navi_service/include/navi_service_node.h	/^	int m_updateiter;$/;"	m	class:villa_navi_srv
+m_viewupdateiter	villa_navi_service/include/navi_service_node.h	/^	int m_viewupdateiter;$/;"	m	class:villa_navi_srv
+m_yolo_idx_set	villa_navi_service/include/navi_service_node.h	/^	std::vector<int>    m_yolo_idx_set;$/;"	m	class:villa_navi_srv
+m_yolo_recieveiter	villa_navi_service/include/navi_service_node.h	/^	int m_yolo_recieveiter;$/;"	m	class:villa_navi_srv
+main	villa_navi_service/src/service_client.cpp	/^int main(int argc, char **argv)$/;"	f
+main	villa_navi_service/src/service_test.cpp	/^int main(int argc, char **argv)$/;"	f
+main	villa_navi_service/src/waypoint_client.cpp	/^int main(int argc, char **argv)$/;"	f
+main	villa_navi_service/src/waypoint_server_node.cpp	/^int main(int argc, char **argv)$/;"	f
+map_index_of_human_cells_to_prob	villa_navi_service/include/navi_service_node.h	/^	std::map<int, float> map_index_of_human_cells_to_prob;$/;"	m	class:villa_navi_srv
+parseparameters	villa_navi_service/src/waypoint_client.cpp	/^  void parseparameters(ros::NodeHandle n)$/;"	f	class:waypoint_manager
+parseparameters	villa_navi_service/src/waypoint_server_node.cpp	/^ void waypoint_srv::parseparameters(ros::NodeHandle n)$/;"	f	class:waypoint_srv
+print_iter	villa_navi_service/include/navi_service_node.h	/^	int print_iter;$/;"	m	class:villa_navi_srv
+pub_iters	villa_navi_service/include/navi_service_node.h	/^	int pub_iters;$/;"	m	class:villa_navi_srv
+setNavTarget_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher setNavTarget_pub;$/;"	m	class:villa_navi_srv
+setNavTarget_pub	villa_navi_service/include/waypoint_server_node.h	/^	ros::Publisher setNavTarget_pub;$/;"	m	class:waypoint_srv
+setViewpointTarget	villa_navi_service/src/navi_service_node.cpp	/^void villa_navi_srv::setViewpointTarget(const std::vector<double> pos)$/;"	f	class:villa_navi_srv
+sig_handler	villa_navi_service/src/service_test.cpp	/^void sig_handler(int sig)$/;"	f
+static_belief_map	villa_navi_service/include/navi_service_node.h	/^	nav_msgs::OccupancyGrid static_belief_map;$/;"	m	class:villa_navi_srv
+static_belief_map_pub	villa_navi_service/include/navi_service_node.h	/^	ros::Publisher static_belief_map_pub;$/;"	m	class:villa_navi_srv
+targetup	villa_navi_service/include/navi_service_node.h	/^	int targetup;$/;"	m	class:villa_navi_srv
+targetup	villa_navi_service/include/waypoint_server_node.h	/^	int targetup;$/;"	m	class:waypoint_srv
+track_cmd	villa_navi_service/include/navi_service_node.h	/^	std_msgs::Int8 track_cmd;$/;"	m	class:villa_navi_srv
+viewpoint_robot	villa_navi_service/include/navi_service_node.h	/^	std::vector< double >  viewpoint_robot;$/;"	m	class:villa_navi_srv
+villa_navi_srv	villa_navi_service/include/navi_service_node.h	/^class villa_navi_srv{$/;"	c
+villa_navi_srv	villa_navi_service/src/navi_service_node.cpp	/^villa_navi_srv::villa_navi_srv():index(0),m_numofhuman(0),m_receiveiter(0){$/;"	f	class:villa_navi_srv
+visiblie_idx_set	villa_navi_service/include/navi_service_node.h	/^	std::vector<int> visiblie_idx_set;$/;"	m	class:villa_navi_srv
+waypoint_callback	villa_navi_service/src/waypoint_client.cpp	/^  void waypoint_callback(const std_msgs::String::ConstPtr& msg)$/;"	f	class:waypoint_manager
+waypoint_int_callback	villa_navi_service/src/waypoint_client.cpp	/^  void waypoint_int_callback(const std_msgs::Int8::ConstPtr& msg){$/;"	f	class:waypoint_manager
+waypoint_manager	villa_navi_service/src/waypoint_client.cpp	/^  explicit waypoint_manager(ros::NodeHandle n_){$/;"	f	class:waypoint_manager
+waypoint_manager	villa_navi_service/src/waypoint_client.cpp	/^class waypoint_manager{$/;"	c	file:
+waypoint_srv	villa_navi_service/include/waypoint_server_node.h	/^class waypoint_srv{$/;"	c
+waypoint_srv	villa_navi_service/src/waypoint_server_node.cpp	/^waypoint_srv::waypoint_srv(ros::NodeHandle n_){$/;"	f	class:waypoint_srv
+waypoint_sub	villa_navi_service/src/waypoint_client.cpp	/^  ros::Subscriber waypoint_sub;$/;"	m	class:waypoint_manager	file:
+~villa_navi_srv	villa_navi_service/src/navi_service_node.cpp	/^villa_navi_srv::~villa_navi_srv(){}$/;"	f	class:villa_navi_srv
+~waypoint_manager	villa_navi_service/src/waypoint_client.cpp	/^  ~waypoint_manager(){}$/;"	f	class:waypoint_manager
+~waypoint_srv	villa_navi_service/src/waypoint_server_node.cpp	/^waypoint_srv::~waypoint_srv(){}$/;"	f	class:waypoint_srv

@@ -28,32 +28,7 @@
 #include <nav_msgs/OccupancyGrid.h>
 #include <nav_msgs/Odometry.h>
 #include <move_base_msgs/MoveBaseActionGoal.h>
-#include <pcl_ros/point_cloud.h>
-#include <pcl/point_types.h>
-#include <pcl/kdtree/kdtree.h>
 #include <villa_navi_service/GoTargetPos.h>
-
-#define FOVW 29				//field of view width
-#define MATH_PI 3.14159265359
-#define P_H 0.2 // Prior prob
-#define P_S_given_H 0.8
-#define P_S_given_Hc 0.5
-
-#define P_Sc_given_H 0.01
-#define P_Sc_given_Hc 0.99
-
-#define Same_POS_diff 0.5
-#define MAX_UPDATE_ITER 50
-#define MAX_VIEW_UPDATE_ITER 100
-#define LASER_ANGLE_RES 0.25
-#define LASER_Data_Length 914
-#define LASER_Point_Step 16
-
-
-#define LASER_ANGLE_MIN -2.09875845909
-#define LASER_ANGLE_MAX 2.09875845909
-#define LASER_ANGLE_STEP 0.00436332309619
-
 
 
 class villa_navi_srv{
