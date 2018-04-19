@@ -40,7 +40,8 @@ generate_messages(
 
 include_directories(${EIGEN3_INCLUDE_DIR})
 include_directories(include)
-include_directories(src)
+include_directories(src
+		${PCL_INCLUDE_DIRS})
 
 catkin_package(
   INCLUDE_DIRS include
